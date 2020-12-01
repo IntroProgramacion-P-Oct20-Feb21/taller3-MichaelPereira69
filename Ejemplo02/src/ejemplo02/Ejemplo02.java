@@ -15,7 +15,8 @@ public class Ejemplo02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+      double resultado= Math.pow(10, 2) + 10;
+      System.out.println("La respuesta es: "+resultado);
         
     }
     

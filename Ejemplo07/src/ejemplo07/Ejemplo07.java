@@ -16,16 +16,8 @@ public class Ejemplo07 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && false);
-        System.out.println("------------------");
-        System.out.println(true || true);
-        System.out.println(true || false);
-        System.out.println(false || false);
-        System.out.println("------------------");
-        System.out.println(!true); // negación
-        System.out.println(!false); // negación
+       boolean resultado = (Math.sqrt(81)+ (9 /3)) ==9 || (10>1) && ((100/25)+ Math.sqrt(100)) >=14;
+        System.out.println("La respuesta es: " +resultado);
     }
     
 }

@@ -16,12 +16,7 @@ public class Ejemplo05 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        System.out.println(10/3);
-        System.out.println(10/3.0);
-        System.out.println(10/3.0+1);
-        System.out.println(Math.pow(10,2));
-        System.out.println(Math.sqrt(16));
+        double resultado = (Math.pow(2, 2) + 12 - 1) / 3;
+        System.out.println("La respuesta es: " +resultado);
     }
-    
 }

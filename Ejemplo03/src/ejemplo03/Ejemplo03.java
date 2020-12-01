@@ -3,44 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo03;
-
+package Ejemplo03;
 /**
  *
- * @author reroes
+ * @author Nixon
  */
 public class Ejemplo03 {
-
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Tipos de dato en Java
-        
-        // Tipo de datos Entero
-        
-        int variable1;
-        int variable2 = 10;
-        
-        // Tipo de datos Double - Decimal
-        
-        double variable3;
-        double variable4 = 10.2;
-        
-        // Tipo de datos String  - Cadena
-        
-        String variable5;
-        String variable6 = "Hola mundo";
-        
-        // Tipo de datos char  - un caractér
-
-        char variable7;
-        char variable8 = 'a';
-        
-        // tipo de dato boolean - boleano
-        
-        boolean variable9 = false;
-        boolean variable10 = true;
+        // TODO code application logic here
+        double resultado= Math.pow(10,2)+ (Math.sqrt(16))+(20/(1+11));
+        System.out.println("La respuesta de la aperacion es: "+resultado);
     }
-    
 }

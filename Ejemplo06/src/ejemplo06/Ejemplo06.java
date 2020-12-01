@@ -16,12 +16,7 @@ public class Ejemplo06 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(10>3);
-        System.out.println(10>11);
-        System.out.println(10<=10);
-        System.out.println(10<2);
-        System.out.println(10==10);
-        System.out.println(10!=2);
+        boolean resultado = (Math.sqrt(81) + 9 / 3 ==9) && (10 > 1);
+        System.out.println("La respuesta es: " +resultado);
     }
-    
 }
